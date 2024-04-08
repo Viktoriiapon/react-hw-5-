@@ -1,0 +1,12 @@
+.movieLinksList {
+  list-style: none;
+  padding: 0;
+}
+
+.movieLinksList li {
+  margin-bottom: 10px;
+}
+
+.movieLinksList li a:hover {
+  text-decoration: underline;
+}
