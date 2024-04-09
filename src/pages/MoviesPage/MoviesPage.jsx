@@ -29,8 +29,8 @@ const MoviesPage = () => {
     };
     fetchMovies();
   }, [query]);
-  const onSearchQuery = (userQuery) => {
-    setSearchParams({ query: userQuery });
+  const onSearchQuery = (query) => {
+    setSearchParams({ query: query });
   };
 
   return (
